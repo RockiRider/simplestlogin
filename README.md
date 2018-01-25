@@ -1,4 +1,4 @@
 # simplestlogin
-This is the most simple login feature using php.
+This is the most simple 1 user admin login feature using php.
 
 Enjoy!
