@@ -3,8 +3,8 @@
 if (isset($_POST['login'])&& !empty($_POST['uname'])
     && !empty($_POST['psw'])) {
     
-        if($_POST['uname']=='2ofHeartsBaby' &&
-            $_POST['psw']=="random"){
+        if($_POST['uname']=='random' &&     //Replace "Random" with Username
+            $_POST['psw']=="random"){       //Replace "Random" with Password
                 header('Location: addentry.html');
                 exit;
             }else{
